@@ -1,6 +1,8 @@
 import random
 from turtle import Turtle, Screen
 my_screen = Screen()
+my_screen.title("Turtle Race")
+my_screen.bgcolor("black")
 my_screen.setup(width=800, height=400)
 is_game = False
 all_colors = ["red","green","azure4","maroon","yellow","orange"]
